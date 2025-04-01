@@ -18,28 +18,36 @@
       <img src="" alt="" />
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, atque!</span>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <span
+        >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
+        atque!</span
+      >
     </section>
     <section>
-        <h2>Registrazione</h2>
-        <form action="registrazione">
-          <label for="nome">Nome</label>
-          <input type="nome" required /> <br />
-          <label for="cognome">Cognome</label>
-          <input type="cognome" /> <br />
-    
-          <input type="radio" id="genere" name="genere" required />Maschio
-          <input type="radio" id="genere" name="genere" required />Femmina
-          <br />
-          <label for="agree">Accetto i T&C:</label>
-          <input type="checkbox" id="checkbox" /> <br>
-          <label for="agree">Accetto la privacy policy:</label>
-          <input type="checkbox" id="checkbox" />
-    
-    
-          <input type="submit" />
-        </form>
+      <h2>Registrazione</h2>
+      <form action="registrazione">
+        <label for="nome"></label>
+        <input type="nome" placeholder="nome" required /> <br />
+        <label for="cognome"></label>
+        <input type="cognome" placeholder="cognome" required /> <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="la tua email"
+        />
+        <br />
+        <input type="radio" id="genere" name="genere" required />Maschio
+        <input type="radio" id="genere" name="genere" required />Femmina
+        <br />
+        <label for="agree">Accetto i T&C:</label>
+        <input type="checkbox" id="checkbox" required /> <br />
+        <label for="agree">Accetto la privacy policy:</label>
+        <input type="checkbox" id="checkbox" required />
+
+        <input type="submit" />
+      </form>
     </section>
   </body>
 </html>
